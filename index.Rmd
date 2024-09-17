@@ -18,7 +18,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: "apa-good-german"
 csl: apa.csl
 link-citations: true
-github-repo: CrumpLab/OER_bookdown
+github-repo: Christoph-MP/Digitale-Medienbildung
 description: "Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung"
 ---
 
@@ -75,7 +75,7 @@ Soweit nicht anders angegeben, wurden alle Grafiken und Abbildungen von den jewe
 ## Kopieren des Denk- und Werkzeugkastens
 Dieses Dokument wurde in R-Studio unter Verwendung von R Markdown geschrieben und mit dem Bookdown-Paket in ein Webbuchformat übersetzt.
 
-Der gesamte Quellcode für die Kompilierung des Buches ist im ...-Repository für dieses Buch verfügbar: [Link einfügen].
+Der gesamte Quellcode für die Kompilierung des Buches ist im GitHub-Repository für dieses Buch verfügbar: https://github.com/Christoph-MP/Digitale-Medienbildung/edit/master/%s.
 
 Sie können dieses Repository sowohl herunterladen als auch [forken]. Laden Sie anschließend die Rproj-Datei in R-Studio und kompilieren Sie dann das gesamte Buch. Anschließend können Sie die einzelnen .rmd-Dateien für jedes Kapitel inhaltlich und stilistisch ihren eigenen Bedürfnissen anpassen. Nähere Informationen zur Arbeit mit Bookdown finden Sie unter anderem in [»Open tools for writing open interactive textbooks (and more).«](https://www.crumplab.com/OER_bookdown/) von M.J.C. Crump.
 
