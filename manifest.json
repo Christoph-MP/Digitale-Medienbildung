@@ -210,29 +210,28 @@
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
       "description": {
-        "Type": "Package",
         "Package": "evaluate",
+        "Type": "Package",
         "Title": "Parsing and Evaluation Tools that Provide More Details than the\nDefault",
-        "Version": "0.24.0",
-        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"Yihui\", \"Xie\", role = \"aut\",\n           comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Michael\", \"Lawrence\", role = \"ctb\"),\n    person(\"Thomas\", \"Kluyver\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Adam\", \"Ryczkowski\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Michel\", \"Lang\", role = \"ctb\"),\n    person(\"Karolis\", \"Koncevičius\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
-        "Description": "Parsing and evaluation tools that make it easy to recreate\n    the command line behaviour of R.",
+        "Version": "0.23",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Michael\", \"Lawrence\", role = \"ctb\"),\n    person(\"Thomas\", \"Kluyver\", role = \"ctb\"),\n    person(\"Jeroen\", \"Ooms\", role = \"ctb\"),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Adam\", \"Ryczkowski\", role = \"ctb\"),\n    person(\"Hiroaki\", \"Yutani\", role = \"ctb\"),\n    person(\"Michel\", \"Lang\", role = \"ctb\"),\n    person(\"Karolis\", \"Koncevičius\", role = \"ctb\"),\n    person(given = \"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Description": "Parsing and evaluation tools that make it easy to recreate the\n    command line behaviour of R.",
         "License": "MIT + file LICENSE",
         "URL": "https://github.com/r-lib/evaluate",
         "BugReports": "https://github.com/r-lib/evaluate/issues",
-        "Depends": "R (>= 4.0.0)",
+        "Depends": "R (>= 3.0.2)",
         "Imports": "methods",
         "Suggests": "covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr",
-        "Config/Needs/website": "tidyverse/tidytemplate",
-        "Config/testthat/edition": "3",
-        "Encoding": "UTF-8",
         "RoxygenNote": "7.2.3",
+        "Encoding": "UTF-8",
+        "Config/testthat/edition": "3",
         "NeedsCompilation": "no",
-        "Packaged": "2024-06-10 13:33:57 UTC; hadleywickham",
-        "Author": "Hadley Wickham [aut, cre],\n  Yihui Xie [aut] (<https://orcid.org/0000-0003-0645-5666>),\n  Michael Lawrence [ctb],\n  Thomas Kluyver [ctb],\n  Jeroen Ooms [ctb],\n  Barret Schloerke [ctb],\n  Adam Ryczkowski [ctb],\n  Hiroaki Yutani [ctb],\n  Michel Lang [ctb],\n  Karolis Koncevičius [ctb],\n  Posit Software, PBC [cph, fnd]",
-        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Packaged": "2023-11-01 13:28:50 UTC; yihui",
+        "Author": "Hadley Wickham [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Michael Lawrence [ctb],\n  Thomas Kluyver [ctb],\n  Jeroen Ooms [ctb],\n  Barret Schloerke [ctb],\n  Adam Ryczkowski [ctb],\n  Hiroaki Yutani [ctb],\n  Michel Lang [ctb],\n  Karolis Koncevičius [ctb],\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "CRAN",
-        "Date/Publication": "2024-06-10 14:10:02 UTC",
-        "Built": "R 4.4.0; ; 2024-06-10 15:49:12 UTC; unix"
+        "Date/Publication": "2023-11-01 14:10:02 UTC",
+        "Built": "R 4.4.1; ; 2024-09-17 17:05:05 UTC; unix"
       }
     },
     "fastmap": {
@@ -845,7 +844,7 @@
       "checksum": "0fc1774d9d1d423722815f11383bffb3"
     },
     "Digitale_Medienbildung.log": {
-      "checksum": "c4314a5319a49fe905a249ce97aa303e"
+      "checksum": "7619d60cd5cae87ab0f3257f81ee2202"
     },
     "Digitale_Medienbildung.toc": {
       "checksum": "ac3ededc1d5648066b5d7a34fb19e83d"
@@ -866,10 +865,10 @@
       "checksum": "c7720f97d411a7c27464db8e9dfa9f04"
     },
     "docs/Digitale_Medienbildung.epub": {
-      "checksum": "0d97feeab39fc953ec283852e883a535"
+      "checksum": "d853469bc305d12df8032856e75a95fb"
     },
     "docs/Digitale_Medienbildung.pdf": {
-      "checksum": "14a25e2d6cfa567339a3fe7d11e1a280"
+      "checksum": "e535f6e8caed229d71ea76949961fd2f"
     },
     "docs/Digitale_Medienbildung.tex": {
       "checksum": "a8887846619334efba5d5267eae87bec"
