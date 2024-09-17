@@ -1,5 +1,4 @@
 Richter, Christoph (2024). Digitale Medienpädagogik: Ein Denk- und Werkzeugkasten. 
-<https://christoph-mp.github.io/Digitale-Medienbildung/>
 
 unter Mitwirkung von Heidrun Allert, Jamila Becker, Lilli Borgeest, Helena Hintz und Isabelle Simon
 

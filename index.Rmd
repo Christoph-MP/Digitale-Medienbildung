@@ -19,7 +19,7 @@ biblio-style: "apa-good-german"
 csl: apa.csl
 link-citations: true
 github-repo: Christoph-MP/Digitale-Medienbildung
-description: "Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung"
+description: "Dieses Dokument ist ein ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung. Der ›Denk- und Werkzeugkasten‹ richtet sich an Lehramtstudierende und Lehrer*innen, aber auch an Medienpädagog*innen und andere Personen, die sich in pädagogischen und außerpädagogischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren."
 ---
 
 # Vorwort {-}
