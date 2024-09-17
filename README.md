@@ -1,10 +1,12 @@
-Crump, Matthew J. C. (2018). Open tools for writing open interactive textbooks (and more). <https://crumplab.github.io/OER_bookdown/>
 
-This is a tutorial and set of working examples for creating web-based textbooks using a collection of open-source tools.
 
-This web-book is itself a working example. All of the source code needed to compile this book yourself is included in the [github repository for this book](https://github.com/CrumpLab/OER_bookdown). So, you could download the repository, and by following the instructions laid out across the chapters, replace this text with your own, and then compile your book as a web-page, .pdf or epub.
+Richter, Christoph (2024). Digitale Medienpädagogik: Ein Denk- und Werkzeugkasten. 
+<https://crumplab.github.io/OER_bookdown/>
+unter Mitwirkung von Heidrun Allert, Jamila Becker, Lilli Borgeest, Helena Hintz und Isabelle Simon
 
-Feel free to contribute to this tutorial by submitting pull requests to this repository.
+This is a textbook on the topic of digital media education. It is aimed at student teachers and teachers, but also at media educators and other people who deal with questions of digitalization in pedagogical and non-pedagogical fields of action and are interested in the ways in which digital technologies transform our social, societal and cultural practices. As a ›Thinking and Toolbox‹, this document contains various theoretical and methodological starting points for both independent and joint exploration of digital transformation processes.
+
+Feel free to contribute to this textbook by submitting pull requests to this repository.
 
 ![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)
 
