@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="de" xml:lang="de">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kapitel 10 Daten und Informatisierung | Digitale Medienbildung</title>
+  <meta name="description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Kapitel 10 Daten und Informatisierung | Digitale Medienbildung" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/Figures/cover.png" />
+  <meta property="og:description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="github-repo" content="CrumpLab/OER_bookdown" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Kapitel 10 Daten und Informatisierung | Digitale Medienbildung" />
+  
+  <meta name="twitter:description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="twitter:image" content="/Figures/cover.png" />
+
+<meta name="author" content="Christoph Richter" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="modellierung-und-formalisierung.html"/>
+<link rel="next" href="schnittstellen.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79429674-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79429674-2');
+</script>
+
+
+<script type="text/javascript">
+mattcrump=1;
+</script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Digitale Medienbildung</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Vorwort</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#entstehungszusammenhang-und-danksagung"><i class="fa fa-check"></i><b>0.1</b> Entstehungszusammenhang und Danksagung</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#lizenz-autorinnenschaft"><i class="fa fa-check"></i><b>0.2</b> Lizenz &amp; Autor*innenschaft</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#kopieren-des-denk--und-werkzeugkastens"><i class="fa fa-check"></i><b>0.3</b> Kopieren des Denk- und Werkzeugkastens</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html"><i class="fa fa-check"></i><b>1</b> Digitale Medienbildung</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#digitalisierung-und-digitalität"><i class="fa fa-check"></i><b>1.1</b> Digitalisierung und Digitalität</a></li>
+<li class="chapter" data-level="1.2" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#digitalisierung-als-frage-der-medien-bildung"><i class="fa fa-check"></i><b>1.2</b> Digitalisierung als Frage der (Medien-)Bildung</a></li>
+<li class="chapter" data-level="1.3" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#keine-gebrauchsanweisung"><i class="fa fa-check"></i><b>1.3</b> (K)eine Gebrauchsanweisung</a></li>
+<li class="chapter" data-level="1.4" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#inhalte-der-materialsammlung"><i class="fa fa-check"></i><b>1.4</b> Inhalte der Materialsammlung</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><i class="fa fa-check"></i><b>2</b> Digitalisierung als epochaltypisches Schlüsselproblem</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#allgemeine-bildung-und-schlüsselprobleme"><i class="fa fa-check"></i><b>2.1</b> Allgemeine Bildung und Schlüsselprobleme</a></li>
+<li class="chapter" data-level="2.2" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#digitalisierung-als-schlüsselproblem"><i class="fa fa-check"></i><b>2.2</b> Digitalisierung als Schlüsselproblem</a></li>
+<li class="chapter" data-level="2.3" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#time-maschine"><i class="fa fa-check"></i><b>2.3</b> Time Maschine</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html"><i class="fa fa-check"></i><b>3</b> Digitalisierung von Bildungsprozessen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#lernen-bildung-mit-über-und-durch-digitale-medien"><i class="fa fa-check"></i><b>3.1</b> Lernen &amp; Bildung mit, über und durch digitale Medien</a></li>
+<li class="chapter" data-level="3.2" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#lernen-bildung-im-kontext-von-schule"><i class="fa fa-check"></i><b>3.2</b> Lernen &amp; Bildung im Kontext von Schule…</a></li>
+<li class="chapter" data-level="3.3" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#minimale-leittexte"><i class="fa fa-check"></i><b>3.3</b> Minimale Leittexte</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html"><i class="fa fa-check"></i><b>4</b> Soziale Praktiken</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#das-konzept-der-sozialen-praktik-als-analytischer-bezugspunkt"><i class="fa fa-check"></i><b>4.1</b> Das Konzept der sozialen Praktik als analytischer Bezugspunkt</a></li>
+<li class="chapter" data-level="4.2" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#wesentliche-ideen"><i class="fa fa-check"></i><b>4.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="4.3" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#mein-lernkosmos"><i class="fa fa-check"></i><b>4.3</b> Mein Lernkosmos</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html"><i class="fa fa-check"></i><b>5</b> Soziale Praktik &amp; Technik</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#das-konzept-der-technik"><i class="fa fa-check"></i><b>5.1</b> Das Konzept der Technik</a></li>
+<li class="chapter" data-level="5.2" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#wesentliche-ideen-1"><i class="fa fa-check"></i><b>5.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="5.3" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#kartierung-sozialer-praktiken"><i class="fa fa-check"></i><b>5.3</b> Kartierung Sozialer Praktiken</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="technikgenese.html"><a href="technikgenese.html"><i class="fa fa-check"></i><b>6</b> Technikgenese</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="technikgenese.html"><a href="technikgenese.html#konzepte-der-technikgenese-1"><i class="fa fa-check"></i><b>6.1</b> Konzepte der Technikgenese (1)</a></li>
+<li class="chapter" data-level="6.2" data-path="technikgenese.html"><a href="technikgenese.html#konzepte-der-technikgenese-2"><i class="fa fa-check"></i><b>6.2</b> Konzepte der Technikgenese (2)</a></li>
+<li class="chapter" data-level="6.3" data-path="technikgenese.html"><a href="technikgenese.html#qualitative-gegenüberstellungen"><i class="fa fa-check"></i><b>6.3</b> Qualitative Gegenüberstellungen</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html"><i class="fa fa-check"></i><b>7</b> Transformation sozialer Praktiken</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#materielle-dinge-praktische-kompetenzen-soziale-bedeutungen"><i class="fa fa-check"></i><b>7.1</b> Materielle Dinge, praktische Kompetenzen &amp; soziale Bedeutungen</a></li>
+<li class="chapter" data-level="7.2" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#soziale-praktiken-form-veränderung"><i class="fa fa-check"></i><b>7.2</b> Soziale Praktiken – Form &amp; Veränderung</a></li>
+<li class="chapter" data-level="7.3" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#szenarien"><i class="fa fa-check"></i><b>7.3</b> Szenarien</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html"><i class="fa fa-check"></i><b>8</b> Die Gestaltung von Technik</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html#modelle-als-gestaltungsprozess"><i class="fa fa-check"></i><b>8.1</b> Modelle als Gestaltungsprozess</a></li>
+<li class="chapter" data-level="8.2" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html#rekonstruktion-der-produktvision"><i class="fa fa-check"></i><b>8.2</b> Rekonstruktion der Produktvision</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html"><i class="fa fa-check"></i><b>9</b> Modellierung und Formalisierung</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#modellierung-und-formalisierung-als-voraussetzungen-der-digitalisierung"><i class="fa fa-check"></i><b>9.1</b> Modellierung und Formalisierung als Voraussetzungen der Digitalisierung</a></li>
+<li class="chapter" data-level="9.2" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#von-situierten-handlungsabläufen-zur-autooperationalen-form"><i class="fa fa-check"></i><b>9.2</b> Von situierten Handlungsabläufen zur ›autooperationalen Form‹</a></li>
+<li class="chapter" data-level="9.3" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#beispiel-diskussionspunkt-antolin"><i class="fa fa-check"></i><b>9.3</b> Beispiel &amp; Diskussionspunkt Antolin</a></li>
+<li class="chapter" data-level="9.4" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#rekonstruktion-von-prozessketten"><i class="fa fa-check"></i><b>9.4</b> Rekonstruktion von Prozessketten</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html"><i class="fa fa-check"></i><b>10</b> Daten und Informatisierung</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#die-datafizierung-des-gegenstandsbereich-als-voraussetzung-der-digitalisierung"><i class="fa fa-check"></i><b>10.1</b> Die Datafizierung des Gegenstandsbereich als Voraussetzung der Digitalisierung</a></li>
+<li class="chapter" data-level="10.2" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#wesentliche-ideen-2"><i class="fa fa-check"></i><b>10.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="10.3" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#beispiel-und-diskussionspunkt-die-datafizierung-von-lernprozessen-in-lernmanagementsystemen"><i class="fa fa-check"></i><b>10.3</b> Beispiel und Diskussionspunkt – Die Datafizierung von Lernprozessen in Lernmanagementsystemen</a></li>
+<li class="chapter" data-level="10.4" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#anwendungsbezogene-datenkritik"><i class="fa fa-check"></i><b>10.4</b> Anwendungsbezogene Datenkritik</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="schnittstellen.html"><a href="schnittstellen.html"><i class="fa fa-check"></i><b>11</b> Schnittstellen</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="schnittstellen.html"><a href="schnittstellen.html#die-einbindung-der-digitalen-dinge-in-ihre-umgebung"><i class="fa fa-check"></i><b>11.1</b> Die Einbindung der digitalen Dinge in ihre Umgebung</a></li>
+<li class="chapter" data-level="11.2" data-path="schnittstellen.html"><a href="schnittstellen.html#formen-der-mensch-maschine-interaktion"><i class="fa fa-check"></i><b>11.2</b> Formen der Mensch-Maschine-Interaktion</a></li>
+<li class="chapter" data-level="11.3" data-path="schnittstellen.html"><a href="schnittstellen.html#kartierung-von-benutzungsflüssen"><i class="fa fa-check"></i><b>11.3</b> Kartierung von Benutzungsflüssen</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html"><i class="fa fa-check"></i><b>12</b> Soziotechnische Milieus &amp; Subjektivierung</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#digitale-technologien-und-ihre-assoziierten-soziotechnischen-milieus"><i class="fa fa-check"></i><b>12.1</b> Digitale Technologien und ihre assoziierten soziotechnischen Milieus</a></li>
+<li class="chapter" data-level="12.2" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#digitale-medien-ideologien-und-modelle-des-menschen"><i class="fa fa-check"></i><b>12.2</b> Digitale (Medien-)Ideologien und Modelle des Menschen</a></li>
+<li class="chapter" data-level="12.3" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#kartierung-assoziierter-milieus-technischer-artefakte"><i class="fa fa-check"></i><b>12.3</b> Kartierung assoziierter Milieus technischer Artefakte</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html"><i class="fa fa-check"></i><b>13</b> Schulische Medienbildung &amp; Kompetenzen</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#digitale-medienbildung-als-teil-des-schulischen-bildungsauftrags"><i class="fa fa-check"></i><b>13.1</b> Digitale Medienbildung als Teil des schulischen Bildungsauftrags</a></li>
+<li class="chapter" data-level="13.2" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#funktional-pragmatische-und-sozial-kollektive-modelle-der-medienkompetenz"><i class="fa fa-check"></i><b>13.2</b> Funktional-pragmatische und sozial-kollektive Modelle der Medienkompetenz</a></li>
+<li class="chapter" data-level="13.3" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#erstellung-praxisbezogener-kompetenzprofile"><i class="fa fa-check"></i><b>13.3</b> Erstellung praxisbezogener Kompetenzprofile</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html"><i class="fa fa-check"></i><b>14</b> Schulische Medienbildung &amp; digitale Transformation</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#digitale-technologien-als-gegenstand-von-unterricht-einsatzpunkte-und-fragestellungen"><i class="fa fa-check"></i><b>14.1</b> Digitale Technologien als Gegenstand von Unterricht – Einsatzpunkte und Fragestellungen</a></li>
+<li class="chapter" data-level="14.2" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#zum-umgang-mit-digitalen-technologien-im-unterricht---fragen-von-macht-mitbestimmung-und-teilhabe"><i class="fa fa-check"></i><b>14.2</b> Zum Umgang mit Digitalen Technologien im Unterricht - Fragen von Macht, Mitbestimmung und Teilhabe</a></li>
+<li class="chapter" data-level="14.3" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#partizipationsorientierter-technikeinsatz"><i class="fa fa-check"></i><b>14.3</b> Partizipationsorientierter Technikeinsatz</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html"><i class="fa fa-check"></i>Anhang</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#beispiel-blinkist"><i class="fa fa-check"></i>Beispiel Blinkist</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-sozialer-praktiken-kapitel-5"><i class="fa fa-check"></i>Kartierung sozialer Praktiken (Kapitel 5)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#szenarien-kapitel-7"><i class="fa fa-check"></i>Szenarien (Kapitel 7)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-der-produktvision-kapitel-8"><i class="fa fa-check"></i>Rekonstruktion der Produktvision (Kapitel 8)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-operationaler-formen-kapitel-9"><i class="fa fa-check"></i>Rekonstruktion operationaler Formen (Kapitel 9)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#anwendungsbezogene-datenkritik-kapitel-10"><i class="fa fa-check"></i>Anwendungsbezogene Datenkritik (Kapitel 10)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-von-benutzungsflüssen-kapitel-11"><i class="fa fa-check"></i>Kartierung von Benutzungsflüssen (Kapitel 11)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-des-technischen-milieus-kapitel-12"><i class="fa fa-check"></i>Kartierung des technischen Milieus (Kapitel 12)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#beispiel-whatsapp"><i class="fa fa-check"></i>Beispiel WhatsApp</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-sozialer-praktiken-kapitel-5-1"><i class="fa fa-check"></i>Kartierung sozialer Praktiken (Kapitel 5)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#szenarien-kapitel-7-1"><i class="fa fa-check"></i>Szenarien (Kapitel 7)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-der-produktvision-kapitel-8-1"><i class="fa fa-check"></i>Rekonstruktion der Produktvision (Kapitel 8)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-operationaler-formen-kapitel-9-1"><i class="fa fa-check"></i>Rekonstruktion operationaler Formen (Kapitel 9)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#anwendungsbezogene-datenkritik-kapitel-10-1"><i class="fa fa-check"></i>Anwendungsbezogene Datenkritik (Kapitel 10)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-von-benutzungsflüssen-kapitel-11-1"><i class="fa fa-check"></i>Kartierung von Benutzungsflüssen (Kapitel 11)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-des-technischen-milieus-kapitel-12-1"><i class="fa fa-check"></i>Kartierung des technischen Milieus (Kapitel 12)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="literatur.html"><a href="literatur.html"><i class="fa fa-check"></i>Literatur</a></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">Publiziert mit bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Digitale Medienbildung</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="daten-und-informatisierung" class="section level1 hasAnchor" number="10">
+<h1><span class="header-section-number">Kapitel 10</span> Daten und Informatisierung<a href="daten-und-informatisierung.html#daten-und-informatisierung" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Die automatisierte Ausführung und Steuerung praktisch relevanter Vorgänge mittels digitaler Technologien setzt neben der operationalen Rekonstruktion von Prozessen immer auch die <strong>Übersetzung relevanter Phänomene in Daten</strong> voraus. Das, was in einem bestimmten Gegenstandsbereich als relevant erachtet wird, muss zunächst in Form von Daten verfügbar gemacht werden, bevor es von einem Programm verarbeitet werden kann.</p>
+<p>»In solving a problem with or without a computer it is necessary to choose an abstraction of reality, i.e., to define a set of data that is to represent the real situation. This choice must be guided by the problem to be solved.« <span class="citation">(<a href="literatur.html#ref-wirthAlgorithmsDataStructures1976">Wirth, 1976</a>)</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig15"></span>
+<img src="Figures/10-01.png" alt="Die Übersetzung eines Linienzugs in ein digitales Datenobjekt."  />
+<p class="caption">
+Abbildung 10.1: Die Übersetzung eines Linienzugs in ein digitales Datenobjekt.
+</p>
+</div>
+<div id="die-datafizierung-des-gegenstandsbereich-als-voraussetzung-der-digitalisierung" class="section level2 hasAnchor" number="10.1">
+<h2><span class="header-section-number">10.1</span> Die Datafizierung des Gegenstandsbereich als Voraussetzung der Digitalisierung<a href="daten-und-informatisierung.html#die-datafizierung-des-gegenstandsbereich-als-voraussetzung-der-digitalisierung" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Informationen können nur dann von digitalen Technologien verarbeitet werden, wenn sie in Form eindeutig bestimmter Daten vorliegen. Daten können dabei aus informatischer Sicht als eine <strong>»reinterpretable representation of information in a formalized manner suitable for communication, interpretation, or processing«</strong> <span class="citation">(<a href="literatur.html#ref-iec23822015InformationTechnologyVocabulary2015">ISO/IEC, 2015</a>)</span> verstanden werden, die in diskreten Datenobjekten organisiert sind.</p>
+<p>Entgegen der etymologischen Bedeutung des Wortes Datum als dem <strong>Gegebenem</strong>, sind Daten im informationstechnischen Sinne vielmehr etwas <em>Gemachtes</em>. Sie werden in einer Weise erzeugt, die für die automatisierte Kommunikation, Interpretation und Verarbeitung geeignet ist. Damit dies möglich wird, muss ihre Verarbeitung <strong>vollkommen unabhängig von der Interpretation durch einen Menschen</strong> sein <span class="citation">(vgl. <a href="literatur.html#ref-nakeAlgorithmischeZeichen2001">Nake, 2001</a>)</span> . Daten existieren dementsprechend nicht nur an und für sich, sondern müssen mit Hilfe entsprechender praktischer Vorkehrungen und Instrumente erzeugt werden <span class="citation">(<a href="literatur.html#ref-giessmannWasIstDatenkritik2014">Gießmann &amp; Burkhardt, 2014</a>; vgl. z.B. <a href="literatur.html#ref-gitelmanIntroduction2013">Gitelman &amp; Jackson, 2013</a>)</span>. Da analoge, kontinuierliche Ereignisse zum Zweck der digitalen Verarbeitung in diskrete Datenobjekte überführt werden müssen, impliziert die Generierung immer auch den Rückgriff auf entsprechende Datenmodelle und eine hiermit einhergehende explizite oder implizite Kategorisierung. Die Entwicklung digitaler Technologien bedingt insofern immer auch eine <strong>»Informatisierung des Gegenstandsbereichs«</strong> <span class="citation">(<a href="literatur.html#ref-floydAutooperationaleFormUnd1997">Floyd, 1997, S. 245</a>)</span>. Alles, was sich nicht in Daten überführen lässt, entzieht sich somit der digitalen Verarbeitung.</p>
+<p>Parallel zum Prozess des Programmierens lässt sich auch die ›Datafizierung‹ als ein <strong>mehrstufiger Vorgang</strong> verstehen (siehe <span style="color:#256B89">Abb. 10.2</span>). Hierbei wird zunächst ein Gegenstand im Anwendungsbereich mittels einer Sammlung relevanter Informationen überführt, die dann in eine formale Datenstruktur und schließlich in ein digitales Datenobjekt übersetzt werden.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig16"></span>
+<img src="Figures/10-02-U%CC%88bersetzung.png" alt="Datafizierung als ein mehrstufiger Übersetzungsprozess."  />
+<p class="caption">
+Abbildung 10.2: Datafizierung als ein mehrstufiger Übersetzungsprozess.
+</p>
+</div>
+</div>
+<div id="wesentliche-ideen-2" class="section level2 hasAnchor" number="10.2">
+<h2><span class="header-section-number">10.2</span> Wesentliche Ideen<a href="daten-und-informatisierung.html#wesentliche-ideen-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>(Digitale) Daten sind Zeichen, die Informationen darstellen -</strong> Daten repräsentieren Informationen über einen Gegenstand. Sie sind eine Form der Beschreibung, die zu einem bestimmten Zweck vorgenommen wird. Damit Daten automatisiert verarbeitet werden können, müssen sie formalisiert werden, sodass ihre Bedeutung eindeutig definiert ist. Im Sinne einer Beschreibung sind Daten nicht gegeben, sondern gemacht. Daten sind insofern niemals ›roh‹ (d.h. unverarbeitet) und können strenggenommen als solche auch nicht gesammelt oder erfasst werden <span class="citation">(vgl. <a href="literatur.html#ref-gitelmanIntroduction2013">Gitelman &amp; Jackson, 2013</a>)</span>.</p>
+<p><strong>Die Produktion (digitaler) Daten kann selbst in unterschiedlichem Maße automatisiert sein -</strong> (Digitale) Daten können auf unterschiedliche Weise produziert werden. Neben der direkten und gezielten Eingabe durch einen Menschen (z.B. beim Ausfüllen eines Formulars am Bildschirm), können Daten auch durch automatisierte Messgeräte (z.B. Thermometer, GPS, Bewegungssensoren, …) erzeugt werden. Darüber hinaus können digitale Daten auch in der unmittelbaren Interaktion mit einem digitalen Produkt automatisch generiert werden (z.B. Logfile- und Interaktionsdaten). Je nach Art und Weise der Datenproduktion verlagern sich die Kontrollmöglichkeiten für die Anwender*innen.</p>
+<p><strong>Als Beschreibungen sind Daten reduktiv -</strong> Wie alle anderen sprachlichen Beschreibungsformate sind auch Daten reduktiv, da sie von der Komplexität realweltlicher Phänomene abstrahieren und entsprechend der jeweiligen Zwecksetzung Wesentliches von Unwesentlichem trennen <span class="citation">(vgl. <a href="literatur.html#ref-floydAutooperationaleFormUnd1997">Floyd, 1997</a>; <a href="literatur.html#ref-nakeAlgorithmischeZeichen2001">Nake, 2001</a>)</span>. Als Beschreibungen abstrahieren Daten insbesondere von der Einzigartigkeit und Überschüssigkeit der Dinge und fokussieren die Gemeinsamkeiten und Beziehungen zwischen den Dingen, die bereits bekannt sind (und sich in Daten fassen lassen).</p>
+<p><strong>Daten sind aggegrativ -</strong> Daten erlangen ihre Aussagekraft durch den Vergleich und die Bezugnahme auf andere Daten. Als Datenobjekte haben sie zwar einen eigenständigen Charakter, bedeutsam werden sie aber erst in Relation zu anderen Daten (z.B. steht ein geschichtliches Datum in einem chronologischen Verhältnis zu anderen Daten). Die Produktion von Daten ist dementsprechend ein auf Systematisierung und Akkumulation ausgerichteter Prozess. Daten sind somit immer auch Teil umfassender Datensammlungen <span class="citation">(vgl. <a href="literatur.html#ref-giessmannWasIstDatenkritik2014">Gießmann &amp; Burkhardt, 2014</a>)</span>.</p>
+<p><strong>Die systematische Nutzung von Daten erfordert die Entwicklung von Kategorien und standardisierter Datenformate -</strong> Sobald Daten gesammelt und aggregiert werden, bedarf es definierter Kategorien und standardisierter Datenformate, damit Daten verglichen und ausgetauscht werden können. Entsprechende Kategorien legen zum Beispiel fest, welche Merkmalsausprägungen einer zu beschreibenden Eigenschaft unterschieden werden sollen und wie die einzelnen Merkmalsausprägungen definiert sind. Datenformate wiederum regeln, wie die Daten codiert werden, sodass sie in automatisierter Weise verarbeitet werden können.</p>
+<p><strong>Als digitale Datenobjekte intervenieren Daten in die Gegenstandsbereiche, die sie zu repräsentieren vorgeben -</strong> Als Objekte sind Daten selbst Gegenstand sozialer Praktiken. Insofern sich in hochgradig technisierten Gesellschaften viele Phänomene erst durch komplexe Datensammlungen erschließen oder selbst das Produkt digitaler Technologien sind, haben Daten nicht nur eine repräsentierende, sondern auch eine wirklichkeitskonstitutierende Funktion. Daten werden insofern zunehmend zu einem Bezugspunkt, an dem Individuen wie auch soziale Gruppen ihr Handeln orientieren.</p>
+</div>
+<div id="beispiel-und-diskussionspunkt-die-datafizierung-von-lernprozessen-in-lernmanagementsystemen" class="section level2 hasAnchor" number="10.3">
+<h2><span class="header-section-number">10.3</span> Beispiel und Diskussionspunkt – Die Datafizierung von Lernprozessen in Lernmanagementsystemen<a href="daten-und-informatisierung.html#beispiel-und-diskussionspunkt-die-datafizierung-von-lernprozessen-in-lernmanagementsystemen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Mit der zunehmenden Verbreitung digitaler Technologien ist auch das Interesse an der Dokumentation und Analyse von Lernprozessen gestiegen. Digitale Schulbücher, Anwendungen und Lernmanagementsysteme stellen in vielen Fällen nicht mehr nur Inhalte oder Lernangebote zur Verfügung, sondern dokumentieren auch das Interaktionsverhalten der Lernenden. Anhand der gesammelten Daten können sich, je nach Konfiguration der Anwendung, die Lehrer*innen, Eltern, und/oder Schüler*innen über ihre Aktivitäten wie auch die jeweiligen Lernfortschritte informieren.</p>
+<p>Die Datafizierung von Lernprozessen lässt sich, wie im Folgenden am Beispiel eines Lernmanagementsystems dargestellt, als eine Reihe von Übersetzungsschritten auffassen.</p>
+<p><img src="Figures/10-04-Lernmanagementsystem.png" style="display: block; margin: auto;" /></p>
+<p> </p>
+<div class="blackbox">
+<p><em>Welche Aspekte des Lernens finden durch die verschiedenen Übersetzungen besondere Beachtung und welche werden nicht erfasst beziehungsweise ausgeblendet?</em></p>
+</div>
+</div>
+<div id="anwendungsbezogene-datenkritik" class="section level2 hasAnchor" number="10.4">
+<h2><span class="header-section-number">10.4</span> Anwendungsbezogene Datenkritik<a href="daten-und-informatisierung.html#anwendungsbezogene-datenkritik" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Ziel</strong></p>
+<p>Ziel der anwendungsbezogenen Datenkritik ist es, die mit der Produktion von Daten einhergehenden Übersetzungen nachzuzeichnen und den Einfluss der Datafizierung auf den Gegenstandsbereich zu reflektieren.</p>
+<p><strong>Leitgedanke</strong></p>
+<p>Die anwendungsbezogene Datenkritik basiert auf der Idee, dass wesentliche Aspekte eines Gegenstandsbereichs in Daten übersetzt werden müssen, damit sie von digitalen Technologien verarbeitet werden können. Diese ›Informatisierung des Gegenstandsbereichs‹ (Floyd, 1997) lässt sich als ein mehrstufiger und zweckgebundener Prozess verstehen, durch den spezifische Weltzugänge produziert werden. Da Daten von der Komplexität des Gegenstandsbereichs abstrahieren, liegt ihrer Verwendung auch immer eine Unterscheidung von Wesentlichem und Unwesentlichem zugrunde.</p>
+<p><strong>Anwendungskontext</strong></p>
+<p>Ausgangspunkt für die Datenkritik bilden die in einem bestimmten Anwendungskontext generierten und mittels digitaler Technologien verarbeiteten Daten.</p>
+<p><img src="Figures/10-05-anwendungsbezogeneDatenkritik.png" style="display: block; margin: auto;" /></p>
+<p><strong>Arbeitsschritte</strong></p>
+<ol style="list-style-type: decimal">
+<li>Identifikation der für eine Anwendung relevanten digitalen Daten.</li>
+<li>Identifikation des durch die Daten dargestellten Gegenstandes/Phänomens.</li>
+<li>Rekonstruktion der zugrundeliegenden Übersetzungsschritte.</li>
+<li>Analyse impliziter Annahmen und Verzerrungen.</li>
+</ol>
+<p><strong>Ergebnisformat</strong></p>
+<p>Erläuterte Illustration grundlegender Übersetzungsschritte.</p>
+<p><strong>Praktische Tipps</strong></p>
+<ul>
+<li>Jeder Übersetzungsschritt basiert auf einer Perspektive anhand derer zwischen Wesentlichem und Unwesentlichem unterschieden wird.</li>
+<li>Zum besseren Verständnis bietet es sich an, die einzelnen Übersetzungsschritte anhand eines Beispiels zu illustrieren.</li>
+</ul>
+<p><strong>»Fallstricke«</strong></p>
+<ul>
+<li>Die anwendungsbezogene Datenkritik ist kein Abbildungs-, sondern selbst ein Übersetzungsprozess, der ein kreatives Moment beinhaltet.</li>
+<li>Gerade dann, wenn Daten als gegeben und ihre Verwendung als alternativlos erscheint, sollte dies die Aufmerksamkeit wecken.</li>
+</ul>
+<p><strong>Weiterführende Literatur zum Leittext</strong></p>
+<p>Dander, V. (2014). Von der ‹Macht der Daten› zur ‹Gemachtheit von Daten›. Praktische Datenkritik als Gegenstand der Medienpädagogik. <em>Mediale Kontrolle unter Beobachtung</em>, 3(1), 0–21.</p>
+<p>Floyd, C. (1997). Autooperationale Form und situiertes Handeln. <em>CognitioHumana - XVII. Deutscher Kongreß für Philosophie</em>, 237–252. <a href="https://doi.org/10.1515/9783050073651" class="uri">https://doi.org/10.1515/9783050073651</a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="modellierung-und-formalisierung.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="schnittstellen.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/petzi53/wiss-arbeiten/edit/master/10-Daten-und-Informatisierung.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Digitale_Medienbildung.pdf", "Digitale_Medienbildung.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\usepackage{tcolorbox}
+\usepackage{hyphenat}
+\usepackage[top=20mm,bottom=20mm,left=20mm,right=20mm]{geometry}
+
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\hyphenation{Me-dien-pä-da-gog-ik Bild-ungs-in-for-ma-tik Kom-mu-ni-ka-ti-ons-me-di-en Hand-lungs-mus-tern So-zia-li-sa-ti-ons Ein-satz-mög-lich-kei-ten Rah-men-be-din-gun-gen Un-ter-su-chungs-zu-sam-men-hang Ver-gleichs-di-men-sio-nen Trans-for-ma-ti-ons-dy-na-mi-ken Hand-lungs-se-quen-zen De-si-gn-wis-sen-schaf-ten Vor-aus-set-zun-gen au-to-ope-ra-tio-na-le Ge-gen-stands-be-rei-che Lern-ma-nage-ment-sys-te-me Soft-ware-schnitt-stel-len Aus-ga-be-mög-lich-kei-ten An-wen-der-in-nen Be-nut-zungs-schnitt-stel-len Pro-duk-ti-ons-be-din-gun-gen kul-tur-wis-sen-schaft-lich er-zie-hungs-wis-sen-schaft-li-chen Kom-pe-tenz-pro-fi-le Trans-for-ma-ti-ons-pro-zess Po-si-ti-ons-be-stim-mun-gen Ge-stal-tungs-pro-zes-ses Hand-lungs-mög-lich-kei-ten Me-tho-den-aus-bil-dung}
+
+% Manuelle Titel-Anpassungen
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\addto\captionsenglish{\renewcommand{\chaptername}{Kapitel}}
+
+%Formatierung der Diskussionskästen
+\newtcolorbox{blackbox}{
+  colback=red,
+  colframe=red,
+  coltext=white,
+  boxsep=5pt,
+  arc=4pt}
+
+%Formatierung der Whitebox
+\newtcolorbox{whitebox}{
+  colback=white,
+  colframe=black,
+  coltext=black,
+  boxsep=5pt,
+  arc=0pt}
+
+%Formatierung der Lizenzkästen
+\newenvironment{licencebox}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=6em,keepaspectratio}
+        \includegraphics{figures/by-sa.png}}
+    }
+  }
+  \setlength{\fboxsep}{1 em}
+  \begin{whitebox}
+  \item
+  }
+  {
+  \end{whitebox}
+  \end{itemize}
+  }
+
+\AtBeginDocument{\let\maketitle\relax}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Alle Kopf- und Fußzeilen bereinigen
+\fancyhead[LE,RO]{\rightmark} % Nur Unterkapitel (Abschnittstitel) in Kopfzeile anzeigen
+\fancyfoot[C]{\thepage}
+
+
+\raggedbottom
+
+\let\cleardoublepage\clearpage
+
+
+

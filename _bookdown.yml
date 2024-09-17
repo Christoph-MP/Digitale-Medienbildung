@@ -1,0 +1,8 @@
+book_filename: "Digitale_Medienbildung"
+output_dir: "docs"
+language:
+  ui:
+    chapter_name: "Kapitel "
+  label:
+    fig: "Abbildung "
+delete_merged_file: true

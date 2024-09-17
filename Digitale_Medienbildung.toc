@@ -1,0 +1,80 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{Vorwort}{3}{chapter*.2}%
+\contentsline {section}{\numberline {0.1}Entstehungszusammenhang und Danksagung}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Lizenz \& Autor*innenschaft}{3}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Kopieren des Denk- und Werkzeugkastens}{4}{section.0.3}%
+\contentsline {chapter}{\numberline {1}Digitale Medienbildung}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Digitalisierung und Digitalität}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Digitalisierung als Frage der (Medien-)Bildung}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}(K)eine Gebrauchsanweisung}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Inhalte der Materialsammlung}{7}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Digitalisierung als epochaltypisches Schlüsselproblem}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Allgemeine Bildung und Schlüsselprobleme}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Digitalisierung als Schlüsselproblem}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Time Maschine}{11}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Digitalisierung von Bildungsprozessen}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lernen \& Bildung mit, über und durch digitale Medien}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Lernen \& Bildung im Kontext von Schule\ldots {}}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Minimale Leittexte}{14}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Soziale Praktiken}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Das Konzept der sozialen Praktik als analytischer Bezugspunkt}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Wesentliche Ideen}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Mein Lernkosmos}{19}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Soziale Praktik \& Technik}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Das Konzept der Technik}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Wesentliche Ideen}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Kartierung Sozialer Praktiken}{23}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Technikgenese}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Konzepte der Technikgenese (1)}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Konzepte der Technikgenese (2)}{26}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Qualitative Gegenüberstellungen}{27}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Transformation sozialer Praktiken}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Materielle Dinge, praktische Kompetenzen \& soziale Bedeutungen}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Soziale Praktiken -- Form \& Veränderung}{30}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Szenarien}{32}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Die Gestaltung von Technik}{35}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Modelle als Gestaltungsprozess}{35}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Rekonstruktion der Produktvision}{38}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Modellierung und Formalisierung}{40}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Modellierung und Formalisierung als Voraussetzungen der Digitalisierung}{40}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Von situierten Handlungsabläufen zur ›autooperationalen Form‹}{41}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Beispiel \& Diskussionspunkt Antolin}{42}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Rekonstruktion von Prozessketten}{43}{section.9.4}%
+\contentsline {chapter}{\numberline {10}Daten und Informatisierung}{45}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Die Datafizierung des Gegenstandsbereich als Voraussetzung der Digitalisierung}{46}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Wesentliche Ideen}{46}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Beispiel und Diskussionspunkt -- Die Datafizierung von Lernprozessen in Lernmanagementsystemen}{47}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Anwendungsbezogene Datenkritik}{48}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Schnittstellen}{50}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Die Einbindung der digitalen Dinge in ihre Umgebung}{50}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Formen der Mensch-Maschine-Interaktion}{51}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Kartierung von Benutzungsflüssen}{52}{section.11.3}%
+\contentsline {chapter}{\numberline {12}Soziotechnische Milieus \& Subjektivierung}{55}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Digitale Technologien und ihre assoziierten soziotechnischen Milieus}{56}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Digitale (Medien-)Ideologien und Modelle des Menschen}{56}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Kartierung assoziierter Milieus technischer Artefakte}{57}{section.12.3}%
+\contentsline {chapter}{\numberline {13}Schulische Medienbildung \& Kompetenzen}{59}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Digitale Medienbildung als Teil des schulischen Bildungsauftrags}{60}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Funktional-pragmatische und sozial-kollektive Modelle der Medienkompetenz}{61}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Erstellung praxisbezogener Kompetenzprofile}{62}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Schulische Medienbildung \& digitale Transformation}{65}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Digitale Technologien als Gegenstand von Unterricht -- Einsatzpunkte und Fragestellungen}{66}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Zum Umgang mit Digitalen Technologien im Unterricht - Fragen von Macht, Mitbestimmung und Teilhabe}{66}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Partizipationsorientierter Technikeinsatz}{67}{section.14.3}%
+\contentsline {chapter}{Anhang}{69}{chapter*.3}%
+\contentsline {section}{Beispiel Blinkist}{69}{section*.4}%
+\contentsline {subsection}{Kartierung sozialer Praktiken (Kapitel 5)}{69}{section*.5}%
+\contentsline {subsection}{Szenarien (Kapitel 7)}{70}{section*.6}%
+\contentsline {subsection}{Rekonstruktion der Produktvision (Kapitel 8)}{72}{section*.7}%
+\contentsline {subsection}{Rekonstruktion operationaler Formen (Kapitel 9)}{73}{section*.8}%
+\contentsline {subsection}{Anwendungsbezogene Datenkritik (Kapitel 10)}{74}{section*.9}%
+\contentsline {subsection}{Kartierung von Benutzungsflüssen (Kapitel 11)}{75}{section*.10}%
+\contentsline {subsection}{Kartierung des technischen Milieus (Kapitel 12)}{76}{section*.11}%
+\contentsline {section}{Beispiel WhatsApp}{76}{section*.12}%
+\contentsline {subsection}{Kartierung sozialer Praktiken (Kapitel 5)}{77}{section*.13}%
+\contentsline {subsection}{Szenarien (Kapitel 7)}{77}{section*.14}%
+\contentsline {subsection}{Rekonstruktion der Produktvision (Kapitel 8)}{80}{section*.15}%
+\contentsline {subsection}{Rekonstruktion operationaler Formen (Kapitel 9)}{81}{section*.16}%
+\contentsline {subsection}{Anwendungsbezogene Datenkritik (Kapitel 10)}{82}{section*.17}%
+\contentsline {subsection}{Kartierung von Benutzungsflüssen (Kapitel 11)}{83}{section*.18}%
+\contentsline {subsection}{Kartierung des technischen Milieus (Kapitel 12)}{84}{section*.19}%

@@ -1,0 +1,28 @@
+bookdown::gitbook:
+  css: style.css
+  split_bib: false
+  config:
+    toc:
+      before: |
+        <li><a href="./">Digitale Medienbildung</a></li>
+      after: |
+        <li><a href="https://bookdown.org" target="blank">Publiziert mit bookdown</a></li>
+    edit: https://github.com/petzi53/wiss-arbeiten/edit/master/%s
+    download: ["pdf", "epub"]
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+    before_body: title.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  pandoc_args: [
+   "-V", "papersize=a4"
+  ]
+  keep_tex: yes
+bookdown::epub_book: default
+
+

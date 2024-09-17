@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="de" xml:lang="de">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kapitel 8 Die Gestaltung von Technik | Digitale Medienbildung</title>
+  <meta name="description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Kapitel 8 Die Gestaltung von Technik | Digitale Medienbildung" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/Figures/cover.png" />
+  <meta property="og:description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="github-repo" content="CrumpLab/OER_bookdown" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Kapitel 8 Die Gestaltung von Technik | Digitale Medienbildung" />
+  
+  <meta name="twitter:description" content="Ein Denk- und Werkzeugkasten zur aktiven Auseinandersetzung mit Fragen der Digitalen Medienbildung" />
+  <meta name="twitter:image" content="/Figures/cover.png" />
+
+<meta name="author" content="Christoph Richter" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="transformation-sozialer-praktiken.html"/>
+<link rel="next" href="modellierung-und-formalisierung.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79429674-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79429674-2');
+</script>
+
+
+<script type="text/javascript">
+mattcrump=1;
+</script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Digitale Medienbildung</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Vorwort</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#entstehungszusammenhang-und-danksagung"><i class="fa fa-check"></i><b>0.1</b> Entstehungszusammenhang und Danksagung</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#lizenz-autorinnenschaft"><i class="fa fa-check"></i><b>0.2</b> Lizenz &amp; Autor*innenschaft</a></li>
+<li class="chapter" data-level="0.3" data-path="index.html"><a href="index.html#kopieren-des-denk--und-werkzeugkastens"><i class="fa fa-check"></i><b>0.3</b> Kopieren des Denk- und Werkzeugkastens</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html"><i class="fa fa-check"></i><b>1</b> Digitale Medienbildung</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#digitalisierung-und-digitalität"><i class="fa fa-check"></i><b>1.1</b> Digitalisierung und Digitalität</a></li>
+<li class="chapter" data-level="1.2" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#digitalisierung-als-frage-der-medien-bildung"><i class="fa fa-check"></i><b>1.2</b> Digitalisierung als Frage der (Medien-)Bildung</a></li>
+<li class="chapter" data-level="1.3" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#keine-gebrauchsanweisung"><i class="fa fa-check"></i><b>1.3</b> (K)eine Gebrauchsanweisung</a></li>
+<li class="chapter" data-level="1.4" data-path="digitale-medienbildung.html"><a href="digitale-medienbildung.html#inhalte-der-materialsammlung"><i class="fa fa-check"></i><b>1.4</b> Inhalte der Materialsammlung</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><i class="fa fa-check"></i><b>2</b> Digitalisierung als epochaltypisches Schlüsselproblem</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#allgemeine-bildung-und-schlüsselprobleme"><i class="fa fa-check"></i><b>2.1</b> Allgemeine Bildung und Schlüsselprobleme</a></li>
+<li class="chapter" data-level="2.2" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#digitalisierung-als-schlüsselproblem"><i class="fa fa-check"></i><b>2.2</b> Digitalisierung als Schlüsselproblem</a></li>
+<li class="chapter" data-level="2.3" data-path="digitalisierung-als-epochaltypisches-schlüsselproblem.html"><a href="digitalisierung-als-epochaltypisches-schlüsselproblem.html#time-maschine"><i class="fa fa-check"></i><b>2.3</b> Time Maschine</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html"><i class="fa fa-check"></i><b>3</b> Digitalisierung von Bildungsprozessen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#lernen-bildung-mit-über-und-durch-digitale-medien"><i class="fa fa-check"></i><b>3.1</b> Lernen &amp; Bildung mit, über und durch digitale Medien</a></li>
+<li class="chapter" data-level="3.2" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#lernen-bildung-im-kontext-von-schule"><i class="fa fa-check"></i><b>3.2</b> Lernen &amp; Bildung im Kontext von Schule…</a></li>
+<li class="chapter" data-level="3.3" data-path="digitalisierung-von-bildungsprozessen.html"><a href="digitalisierung-von-bildungsprozessen.html#minimale-leittexte"><i class="fa fa-check"></i><b>3.3</b> Minimale Leittexte</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html"><i class="fa fa-check"></i><b>4</b> Soziale Praktiken</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#das-konzept-der-sozialen-praktik-als-analytischer-bezugspunkt"><i class="fa fa-check"></i><b>4.1</b> Das Konzept der sozialen Praktik als analytischer Bezugspunkt</a></li>
+<li class="chapter" data-level="4.2" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#wesentliche-ideen"><i class="fa fa-check"></i><b>4.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="4.3" data-path="soziale-praktiken.html"><a href="soziale-praktiken.html#mein-lernkosmos"><i class="fa fa-check"></i><b>4.3</b> Mein Lernkosmos</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html"><i class="fa fa-check"></i><b>5</b> Soziale Praktik &amp; Technik</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#das-konzept-der-technik"><i class="fa fa-check"></i><b>5.1</b> Das Konzept der Technik</a></li>
+<li class="chapter" data-level="5.2" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#wesentliche-ideen-1"><i class="fa fa-check"></i><b>5.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="5.3" data-path="soziale-praktik-technik.html"><a href="soziale-praktik-technik.html#kartierung-sozialer-praktiken"><i class="fa fa-check"></i><b>5.3</b> Kartierung Sozialer Praktiken</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="technikgenese.html"><a href="technikgenese.html"><i class="fa fa-check"></i><b>6</b> Technikgenese</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="technikgenese.html"><a href="technikgenese.html#konzepte-der-technikgenese-1"><i class="fa fa-check"></i><b>6.1</b> Konzepte der Technikgenese (1)</a></li>
+<li class="chapter" data-level="6.2" data-path="technikgenese.html"><a href="technikgenese.html#konzepte-der-technikgenese-2"><i class="fa fa-check"></i><b>6.2</b> Konzepte der Technikgenese (2)</a></li>
+<li class="chapter" data-level="6.3" data-path="technikgenese.html"><a href="technikgenese.html#qualitative-gegenüberstellungen"><i class="fa fa-check"></i><b>6.3</b> Qualitative Gegenüberstellungen</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html"><i class="fa fa-check"></i><b>7</b> Transformation sozialer Praktiken</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#materielle-dinge-praktische-kompetenzen-soziale-bedeutungen"><i class="fa fa-check"></i><b>7.1</b> Materielle Dinge, praktische Kompetenzen &amp; soziale Bedeutungen</a></li>
+<li class="chapter" data-level="7.2" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#soziale-praktiken-form-veränderung"><i class="fa fa-check"></i><b>7.2</b> Soziale Praktiken – Form &amp; Veränderung</a></li>
+<li class="chapter" data-level="7.3" data-path="transformation-sozialer-praktiken.html"><a href="transformation-sozialer-praktiken.html#szenarien"><i class="fa fa-check"></i><b>7.3</b> Szenarien</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html"><i class="fa fa-check"></i><b>8</b> Die Gestaltung von Technik</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html#modelle-als-gestaltungsprozess"><i class="fa fa-check"></i><b>8.1</b> Modelle als Gestaltungsprozess</a></li>
+<li class="chapter" data-level="8.2" data-path="die-gestaltung-von-technik.html"><a href="die-gestaltung-von-technik.html#rekonstruktion-der-produktvision"><i class="fa fa-check"></i><b>8.2</b> Rekonstruktion der Produktvision</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html"><i class="fa fa-check"></i><b>9</b> Modellierung und Formalisierung</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#modellierung-und-formalisierung-als-voraussetzungen-der-digitalisierung"><i class="fa fa-check"></i><b>9.1</b> Modellierung und Formalisierung als Voraussetzungen der Digitalisierung</a></li>
+<li class="chapter" data-level="9.2" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#von-situierten-handlungsabläufen-zur-autooperationalen-form"><i class="fa fa-check"></i><b>9.2</b> Von situierten Handlungsabläufen zur ›autooperationalen Form‹</a></li>
+<li class="chapter" data-level="9.3" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#beispiel-diskussionspunkt-antolin"><i class="fa fa-check"></i><b>9.3</b> Beispiel &amp; Diskussionspunkt Antolin</a></li>
+<li class="chapter" data-level="9.4" data-path="modellierung-und-formalisierung.html"><a href="modellierung-und-formalisierung.html#rekonstruktion-von-prozessketten"><i class="fa fa-check"></i><b>9.4</b> Rekonstruktion von Prozessketten</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html"><i class="fa fa-check"></i><b>10</b> Daten und Informatisierung</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#die-datafizierung-des-gegenstandsbereich-als-voraussetzung-der-digitalisierung"><i class="fa fa-check"></i><b>10.1</b> Die Datafizierung des Gegenstandsbereich als Voraussetzung der Digitalisierung</a></li>
+<li class="chapter" data-level="10.2" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#wesentliche-ideen-2"><i class="fa fa-check"></i><b>10.2</b> Wesentliche Ideen</a></li>
+<li class="chapter" data-level="10.3" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#beispiel-und-diskussionspunkt-die-datafizierung-von-lernprozessen-in-lernmanagementsystemen"><i class="fa fa-check"></i><b>10.3</b> Beispiel und Diskussionspunkt – Die Datafizierung von Lernprozessen in Lernmanagementsystemen</a></li>
+<li class="chapter" data-level="10.4" data-path="daten-und-informatisierung.html"><a href="daten-und-informatisierung.html#anwendungsbezogene-datenkritik"><i class="fa fa-check"></i><b>10.4</b> Anwendungsbezogene Datenkritik</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="schnittstellen.html"><a href="schnittstellen.html"><i class="fa fa-check"></i><b>11</b> Schnittstellen</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="schnittstellen.html"><a href="schnittstellen.html#die-einbindung-der-digitalen-dinge-in-ihre-umgebung"><i class="fa fa-check"></i><b>11.1</b> Die Einbindung der digitalen Dinge in ihre Umgebung</a></li>
+<li class="chapter" data-level="11.2" data-path="schnittstellen.html"><a href="schnittstellen.html#formen-der-mensch-maschine-interaktion"><i class="fa fa-check"></i><b>11.2</b> Formen der Mensch-Maschine-Interaktion</a></li>
+<li class="chapter" data-level="11.3" data-path="schnittstellen.html"><a href="schnittstellen.html#kartierung-von-benutzungsflüssen"><i class="fa fa-check"></i><b>11.3</b> Kartierung von Benutzungsflüssen</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html"><i class="fa fa-check"></i><b>12</b> Soziotechnische Milieus &amp; Subjektivierung</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#digitale-technologien-und-ihre-assoziierten-soziotechnischen-milieus"><i class="fa fa-check"></i><b>12.1</b> Digitale Technologien und ihre assoziierten soziotechnischen Milieus</a></li>
+<li class="chapter" data-level="12.2" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#digitale-medien-ideologien-und-modelle-des-menschen"><i class="fa fa-check"></i><b>12.2</b> Digitale (Medien-)Ideologien und Modelle des Menschen</a></li>
+<li class="chapter" data-level="12.3" data-path="soziotechnische-milieus-subjektivierung.html"><a href="soziotechnische-milieus-subjektivierung.html#kartierung-assoziierter-milieus-technischer-artefakte"><i class="fa fa-check"></i><b>12.3</b> Kartierung assoziierter Milieus technischer Artefakte</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html"><i class="fa fa-check"></i><b>13</b> Schulische Medienbildung &amp; Kompetenzen</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#digitale-medienbildung-als-teil-des-schulischen-bildungsauftrags"><i class="fa fa-check"></i><b>13.1</b> Digitale Medienbildung als Teil des schulischen Bildungsauftrags</a></li>
+<li class="chapter" data-level="13.2" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#funktional-pragmatische-und-sozial-kollektive-modelle-der-medienkompetenz"><i class="fa fa-check"></i><b>13.2</b> Funktional-pragmatische und sozial-kollektive Modelle der Medienkompetenz</a></li>
+<li class="chapter" data-level="13.3" data-path="schulische-medienbildung-kompetenzen.html"><a href="schulische-medienbildung-kompetenzen.html#erstellung-praxisbezogener-kompetenzprofile"><i class="fa fa-check"></i><b>13.3</b> Erstellung praxisbezogener Kompetenzprofile</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html"><i class="fa fa-check"></i><b>14</b> Schulische Medienbildung &amp; digitale Transformation</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#digitale-technologien-als-gegenstand-von-unterricht-einsatzpunkte-und-fragestellungen"><i class="fa fa-check"></i><b>14.1</b> Digitale Technologien als Gegenstand von Unterricht – Einsatzpunkte und Fragestellungen</a></li>
+<li class="chapter" data-level="14.2" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#zum-umgang-mit-digitalen-technologien-im-unterricht---fragen-von-macht-mitbestimmung-und-teilhabe"><i class="fa fa-check"></i><b>14.2</b> Zum Umgang mit Digitalen Technologien im Unterricht - Fragen von Macht, Mitbestimmung und Teilhabe</a></li>
+<li class="chapter" data-level="14.3" data-path="schulische-medienbildung-digitale-transformation.html"><a href="schulische-medienbildung-digitale-transformation.html#partizipationsorientierter-technikeinsatz"><i class="fa fa-check"></i><b>14.3</b> Partizipationsorientierter Technikeinsatz</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html"><i class="fa fa-check"></i>Anhang</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#beispiel-blinkist"><i class="fa fa-check"></i>Beispiel Blinkist</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-sozialer-praktiken-kapitel-5"><i class="fa fa-check"></i>Kartierung sozialer Praktiken (Kapitel 5)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#szenarien-kapitel-7"><i class="fa fa-check"></i>Szenarien (Kapitel 7)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-der-produktvision-kapitel-8"><i class="fa fa-check"></i>Rekonstruktion der Produktvision (Kapitel 8)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-operationaler-formen-kapitel-9"><i class="fa fa-check"></i>Rekonstruktion operationaler Formen (Kapitel 9)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#anwendungsbezogene-datenkritik-kapitel-10"><i class="fa fa-check"></i>Anwendungsbezogene Datenkritik (Kapitel 10)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-von-benutzungsflüssen-kapitel-11"><i class="fa fa-check"></i>Kartierung von Benutzungsflüssen (Kapitel 11)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-des-technischen-milieus-kapitel-12"><i class="fa fa-check"></i>Kartierung des technischen Milieus (Kapitel 12)</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#beispiel-whatsapp"><i class="fa fa-check"></i>Beispiel WhatsApp</a>
+<ul>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-sozialer-praktiken-kapitel-5-1"><i class="fa fa-check"></i>Kartierung sozialer Praktiken (Kapitel 5)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#szenarien-kapitel-7-1"><i class="fa fa-check"></i>Szenarien (Kapitel 7)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-der-produktvision-kapitel-8-1"><i class="fa fa-check"></i>Rekonstruktion der Produktvision (Kapitel 8)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#rekonstruktion-operationaler-formen-kapitel-9-1"><i class="fa fa-check"></i>Rekonstruktion operationaler Formen (Kapitel 9)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#anwendungsbezogene-datenkritik-kapitel-10-1"><i class="fa fa-check"></i>Anwendungsbezogene Datenkritik (Kapitel 10)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-von-benutzungsflüssen-kapitel-11-1"><i class="fa fa-check"></i>Kartierung von Benutzungsflüssen (Kapitel 11)</a></li>
+<li class="chapter" data-level="" data-path="anhang.html"><a href="anhang.html#kartierung-des-technischen-milieus-kapitel-12-1"><i class="fa fa-check"></i>Kartierung des technischen Milieus (Kapitel 12)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="literatur.html"><a href="literatur.html"><i class="fa fa-check"></i>Literatur</a></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="blank">Publiziert mit bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Digitale Medienbildung</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="die-gestaltung-von-technik" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Kapitel 8</span> Die Gestaltung von Technik<a href="die-gestaltung-von-technik.html#die-gestaltung-von-technik" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Ebenso wie der Umgang mit Technik lässt sich auch die Gestaltung technischer Produkte als Teil sozialer Praktiken verstehen. Je komplexer die technischen Dinge werden, desto seltener liegen Entwurf, Herstellung und Gebrauch in einer Hand. Entsprechend sind auch die jeweiligen Praktiken mehr oder minder stark voneinander entkoppelt und durch die Ausbildung spezifischer Tätigkeitsprofile gekennzeichnet, die bis zur Ausbildung spezifischer Berufsgruppen, wie etwa von Ingenieur*innen, Architekt*innen und Softwareentwickler*innen, führen (vgl. <span style="color:#256B89">Abb. 8.1</span>).</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig8"></span>
+<img src="Figures/08-01-gekoppelte-Praktiken.png" alt="Herstellung und Gebrauch als aneinander gekoppelte Praktiken."  />
+<p class="caption">
+Abbildung 8.1: Herstellung und Gebrauch als aneinander gekoppelte Praktiken.
+</p>
+</div>
+<div id="modelle-als-gestaltungsprozess" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Modelle als Gestaltungsprozess<a href="die-gestaltung-von-technik.html#modelle-als-gestaltungsprozess" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Als soziale Praktik beinhaltet die Entwicklung und Herstellung technischer Produkte immer auch Annahmen und Modelle über den Sinn und Zweck wie auch die Bedingungen gestalterischen Handelns. Entsprechende Modelle bieten einen wichtigen <strong>Orientierungsrahmen für die Praktiker*innen</strong> und dienen gleichzeitig auch der <strong>Vermittlung und Legitimation des eigenen Tuns gegenüber anderen</strong>, wie etwa Auftraggeber*innen oder Anwender*innen <span class="citation">(vgl. <a href="literatur.html#ref-carvalhoLegitimatingDesignSociology2009">Carvalho et al., 2009</a>; <a href="literatur.html#ref-shoveDesignEverydayLife2007">Shove et al., 2007</a>)</span>.</p>
+<p>Die Annahmen und Modelle dessen, was die Gestaltung (digitaler Technologien) ausmacht, sind nicht nur Gegenstand soziologischer und kulturwissenschaftlicher Analysen, sondern werden auch innerhalb der Ingenieurs- und Designwissenschaften, der Informatik wie auch der Pädagogik intensiv diskutiert. Über die Grenzen der einzelnen Disziplinen hinweg sind hierbei verschiedene Modelle vorgeschlagen worden, um den Gestaltungsprozess zu systematisieren und die mit ihm verbundenen Aufgaben zu definieren. Diese Modelle unterscheiden sich nicht zuletzt hinsichtlich der Frage, <strong>was eigentlich zu gestalten ist, wie der Gestaltungsprozess organisiert</strong> werden sollte und <strong>welche Personengruppen</strong> dabei in welcher Form beteiligt sein sollen. Sie umfassen immer auch mehr oder weniger explizite <strong>Vorstellungen darüber, wie Menschen handeln</strong> und wie sie mit technischen Dingen umgehen.</p>
+<p>Gestaltung wird an dieser Stelle als <strong>Oberbegriff</strong> verstanden, der sowohl die Prozesse des <strong>Entwerfens</strong>, der <strong>Konstruktion</strong> wie auch der <strong>Herstellung</strong> oder <strong>Realisierung</strong> eines (technischen) Gegenstands umfasst. In Anlehnung an Victor Papanek <span class="citation">(<a href="literatur.html#ref-papanekDesignFurReale2009">Papanek, 2009</a>)</span> lässt sich Gestaltung dabei als »das bewusste und zugleich intuitive Bemühen um sinnvolle Ordnung« verstehen, die sich unter anderem in Form technischer Dinge manifestieren kann.</p>
+<p><strong>Gestaltung als rationales Problemlösen</strong></p>
+<p>Modelle der Gestaltung als Prozess des rationalen Problemlösens haben ihren Ursprung insbesondere in den Ingenieurswissenschaften. Sie gehen davon aus, dass das zu lösende Problem bereits bekannt ist und sich (im Idealfall) umfassend und präzise beschreiben lässt. Die wesentliche Aufgabe der Gestaltung besteht dementsprechend darin, unter Rückgriff auf zur Verfügung stehende Informationen eine zufriedenstellende Lösung zu finden. Eine Lösung ist dabei genau dann zufriedenstellend, wenn sie die in der Problembeschreibung festgelegten Anforderungen möglichst umfassend erfüllt. Der Gestaltungsprozess orientiert sich aus dieser Perspektive an objektiven Kriterien und ist methodisch kontrollierbar <span class="citation">(vgl. <a href="literatur.html#ref-lowgrenApplyingDesignMethodology1995">Löwgren, 1995</a>)</span>. Individuelle Präferenzen wie auch gesellschaftliche Normen und Werte spielen für die Suche nach einer Problemlösung keine Rolle. Ausgehend von den kognitionswissenschaftlichen Modellen der 1950er und 1960er Jahre orientieren sich diese Modelle an der Idee des Menschen als einem informationsverarbeitenden System.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fig9"></span>
+<img src="Figures/08-02-Designer-als-Computer.png" alt="»Designer as Computer« [aus @jonesDesignMethods1970]." width="75%" />
+<p class="caption">
+Abbildung 8.2: »Designer as Computer« <span class="citation">(aus <a href="literatur.html#ref-jonesDesignMethods1970">Jones, 1970</a>)</span>.
+</p>
+</div>
+<p>Die Vorstellung von Gestaltung als Prozess des rationalen Problemlösens gilt als weitgehend überholt, da sie nicht zuletzt die Frage nach der Definition der zu lösenden Probleme ausklammert <span class="citation">(z.B. <a href="literatur.html#ref-rittelPlanningCrisisSystems1972">Rittel, 1972</a>)</span>. Als handlungsleitendes Motiv spielt dieses Modell aber auch weiterhin eine wichtige Rolle <span class="citation">(<a href="literatur.html#ref-pahlKonstruktionslehreGrundlagenErfolgreicher2007">Pahl et al., 2007</a>)</span>.</p>
+<p><strong>Gestaltung als kreativer und ergebnisoffener Prozess</strong></p>
+<p>Modelle der Gestaltung als kreativer Prozess mit offenem Ausgang haben ihre Wurzeln vor allem in der designtheoretischen Diskussion. Im Gegensatz zur Vorstellung der Gestaltung als Problemlöseprozess gehen sie davon aus, dass sich Problemstellung und Lösung nicht voneinander trennen lassen. Jeder gestalterische Eingriff und jeder Versuch, eine Lösung zu finden, verändert vielmehr die Problemlage und zieht vorab nicht vorhersehbare Folgen nach sich. Je nachdem wie die Situation, die Anlass für einen Gestaltungsprozess gibt, verstanden wird, ergeben sich unterschiedliche Vorstellungen davon, worin das Problem besteht und wie mögliche Lösungen aussehen könnten <span class="citation">(z. B. <a href="literatur.html#ref-rittelPlanningCrisisSystems1972">Rittel, 1972</a>)</span>. Gestaltung setzt aus dieser Perspektive ein Moment der Antizipation voraus, eine Vorstellung davon, was noch nicht ist, aber sein könnte und wünschenswert zu sein scheint (vgl. <span style="color:#256B89">Abb. 8.3</span>) <span class="citation">(vgl. <a href="literatur.html#ref-krippendorffProductSemanticsTriangulation1989">Krippendorff, 1989</a>; <a href="literatur.html#ref-zamenopoulosAnticipatoryViewDesign2007">Zamenopoulos &amp; Alexiou, 2007</a>)</span>.</p>
+<p>Gestaltung basiert entsprechend auf modellhaften, sozial und kulturell geprägten Vorstellungen dessen, was ist, wie auch dessen, was sein beziehungsweise werden soll, und impliziert damit immer auch normative Annahmen und Setzungen bezüglich dessen, was als wünschenswert erachtet wird.</p>
+<div class="figure"><span style="display:block;" id="fig:fig10"></span>
+<img src="Figures/08-03-Antizipation.png" alt="Gestaltung als ein antizipativer Vorgang (eigene Darstellung aufbauend auf @krippendorffProductSemanticsTriangulation1989 &amp; @zamenopoulosAnticipatoryViewDesign2007)."  />
+<p class="caption">
+Abbildung 8.3: Gestaltung als ein antizipativer Vorgang (eigene Darstellung aufbauend auf <span class="citation">Krippendorff (<a href="literatur.html#ref-krippendorffProductSemanticsTriangulation1989">1989</a>)</span> &amp; <span class="citation">Zamenopoulos &amp; Alexiou (<a href="literatur.html#ref-zamenopoulosAnticipatoryViewDesign2007">2007</a>)</span>).
+</p>
+</div>
+<p><strong>Gestaltung als koevolutionärer Prozess</strong></p>
+<p>Modelle der Gestaltung als koevolutionärer Prozess finden sich in der techniksoziologischen wie auch der designtheoretischen Diskussion. Diese Ansätze erweitern den Fokus und verstehen nicht nur die Konzeption und Herstellung, sondern auch die Auswahl, Einführung und sukzessive Aneignung der jeweiligen (technischen) Produkte im Rahmen spezifischer Praktiken als Teil des Gestaltungsprozesses <span class="citation">(vgl. <a href="literatur.html#ref-carrollCompletingDesignUse2004">Carroll, 2004</a>)</span>.</p>
+<p>Herstellung und Gebrauch sind aus dieser Perspektive in rekursiver Weise aufeinander bezogen <span class="citation">(vgl. <a href="literatur.html#ref-bolinHeuristicsAlgorithmBig2015">Bolin &amp; Schwarz, 2015</a>)</span>. Während die Entwickler*innen an bereits bestehenden Praktiken, Routinen und Produkten anknüpfen und ein Modell zukünftiger Anwendungsmöglichkeiten entwerfen, eignen sich die Praktiker*innen ihnen zur Verfügung stehende oder gestellte Produkte aktiv an, indem sie diese erproben, hinsichtlich ihrer ›Praxistauglichkeit‹ evaluieren und, soweit möglich und erforderlich, ihren jeweiligen Bedürfnissen anpassen (vgl. <span style="color:#256B89">Abb. 8.4</span>).</p>
+<p>Aus evolutionstheoretischer Sicht produziert die Konzeption und Herstellung (technischer) Produkte in Bezug auf die Transformation sozialer Praktiken Variation: Eine Bandbreite neuer Produkte wird verfügbar, die sich aber erst noch als praxistauglich erweisen müssen (Selektion), bevor sie zu einem fixen Bestandteil einer veränderten, sozialen Praktik werden können (Re-Stabilisierung) <span class="citation">(vgl. <a href="literatur.html#ref-jonasDesignResearchIts2007">Jonas, 2007</a>)</span>.</p>
+<div class="figure"><span style="display:block;" id="fig:fig11"></span>
+<img src="Figures/08-04-Gestaltung-Wechselspiel.png" alt="Gestaltung im Wechselspiel von Konzeption, Herstellung, Einführung und Aneignung (eigene Darstellung aufbauend auf @bolinHeuristicsAlgorithmBig2015 &amp; @shoveDynamicsSocialPractice2012)."  />
+<p class="caption">
+Abbildung 8.4: Gestaltung im Wechselspiel von Konzeption, Herstellung, Einführung und Aneignung (eigene Darstellung aufbauend auf <span class="citation">Bolin &amp; Schwarz (<a href="literatur.html#ref-bolinHeuristicsAlgorithmBig2015">2015</a>)</span> &amp; <span class="citation">Shove et al. (<a href="literatur.html#ref-shoveDynamicsSocialPractice2012">2012</a>)</span>).
+</p>
+</div>
+<div class="blackbox">
+<p><em>Welche Beispiele für die aktive Umnutzung oder Zweckentfremdung technischer Produkte begegnen Ihnen in Ihrem Alltag? Wie kommt es dazu?</em></p>
+</div>
+</div>
+<div id="rekonstruktion-der-produktvision" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Rekonstruktion der Produktvision<a href="die-gestaltung-von-technik.html#rekonstruktion-der-produktvision" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Ziel</strong></p>
+<p>Die Rekonstruktion der Produktvision dient dazu, die einem Produkt zugrundeliegenden Annahmen der Entwickler*innen zu identifizieren.</p>
+<p><strong>Leitgedanke</strong></p>
+<p>Die Rekonstruktion der Produktvision geht davon aus, dass die an der Gestaltung eines Produkts beteiligten Personen eine bestimmte Perspektive auf den Gegenstandsgegenstand entwickelt haben, auf deren Grundlage sie ihre Entscheidungen treffen. Die Produktvision umfasst dabei insbesondere Aussagen über den Zweck und Mehrwert des Produkts, die Zielgruppe und ihre Bedürfnisse wie auch zentrale Anwendungsfälle und Funktionen. Grundlage für die Rekonstruktion können u.a. Produktwebseiten, Werbematerialien, Anleitungen, Pressemitteilungen und Entwicklerblogs sein.</p>
+<p><strong>Anwendungskontext</strong></p>
+<p>Ausgangspunkt für die Rekonstruktion bilden die Aussagen der Entwickler*innen über ein konkretes Produkt. Die rekonstruierte Produktversion bietet einen Referenzpunkt zum Abgleich mit tatsächlichen Nutzungsformen.</p>
+<p><img src="Figures/08-05-Produktvision.png" style="display: block; margin: auto;" /></p>
+<p><strong>Arbeitsschritte</strong></p>
+<ol style="list-style-type: decimal">
+<li>Auswahl des Produkts.</li>
+<li>Sammlung von Darstellungen des Produkts durch die Entwickler*innen, z.B. Produktwebseiten, Werbematerialien, Anleitungen, Entwicklerblogs.</li>
+<li>Abgleich und Verdichtung der gesammelten Aussagen.</li>
+<li>Zusammenfassung in Form einer Produktpräsentation.</li>
+<li>Kritische Überprüfung und ggf. weitere Ausarbeitung des Szenarios.</li>
+</ol>
+<p><strong>Ergebnisformat</strong></p>
+<p>Darstellung der Produktvision in Form einer fiktiven Produktverpackung.</p>
+<p><strong>Praktische Tipps</strong></p>
+<ul>
+<li>Im Mittelpunkt stehen die Intentionen und Ideen der Entwickler*innen. Ob und wie gut diese tatsächlich realisiert werden konnten, ist zunächst nicht relevant.</li>
+<li>Die Rekonstruktion sollte sich soweit als möglich an den Begrifflichkeiten und Darstellungsweisen der Entwickler*innen orientieren.</li>
+<li>Zur besseren Nachvollziehbarkeit sollten die verwendeten Quellen dokumentiert werden.</li>
+</ul>
+<p><strong>»Fallstricke«</strong></p>
+<ul>
+<li>Da die Produktvision auf Annahmen beruht, ist sie weder wahr noch falsch, sondern in erster Linie Ausdruck einer bestimmten Position oder Haltung.</li>
+<li>Nicht alle produktbezogenen Annahmen müssen explizit benannt werden. Auch visuelle Darstellungen, z.B. von Anwender*innen, oder Beispiele können auf Annahmen hinweisen.</li>
+</ul>
+<p><strong>Weiterführende Literatur zum Leittext</strong></p>
+<p>Deasy, D. (2003). Non-AssumptiveResearch. In B. Laurel (ed). <em>Design Research –Methods and Perspectives</em> (pp. 172-174), MITPress.</p>
+<p>Highsmith, J. A. (2004). <em>Agile project management: Creating innovative products</em>. Addison-Wesley.</p>
+<p>Light, B., Burgess, J., &amp; Duguay, S. (2018). The walkthrough method: An approach to the study of apps. <em>New Media &amp; Society</em>, 20(3), 881–900.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="transformation-sozialer-praktiken.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="modellierung-und-formalisierung.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/petzi53/wiss-arbeiten/edit/master/08-Gestaltung-von-Technik.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Digitale_Medienbildung.pdf", "Digitale_Medienbildung.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

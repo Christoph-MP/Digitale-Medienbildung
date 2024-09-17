@@ -1,0 +1,47 @@
+h1 {
+  color: #256B89;
+}
+
+h2 {
+  color: #C00000;
+}
+
+p.caption {
+  color: #256B89;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.blackbox {
+  padding: 1em;
+  background: #C00000;
+  color: white;
+  border: 1px solid #C00000;
+  border-radius: 10px;
+}
+.center {
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.licencebox {
+  padding: 0.5em 0.5em 0.5em 7em;
+  border: 1px solid black;
+  border-radius: 0px;
+  background: white 5px center/6em no-repeat;
+  background-image: url("Figures/by-sa.png");
+}
