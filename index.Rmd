@@ -24,7 +24,7 @@ description: "Dieses Dokument ist ein ›Denk- und Werkzeugkasten‹ zum Themenf
 
 # Vorwort {-}
 ```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), out.width='75%'}
-knitr::include_graphics('Figures/cover.png')
+knitr::include_graphics('Figures/Cover.png')
 ```
 
 Der vorliegende ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung richtet sich an Lehramtstudierende und Lehrer\*innen, aber auch an Medienpädagog\*innen und andere Personen, die sich in pädagogischen und außerpädagogischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren.
