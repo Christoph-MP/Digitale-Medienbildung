@@ -1,4 +1,5 @@
-Richter, Christoph (2024). Digitale Medienpädagogik: Ein Denk- und Werkzeugkasten. [christoph-mp.github.io/Digitale-Medienbildung](https://christoph-mp.github.io/Digitale-Medienbildung) 
+Richter, Christoph (2024). Digitale Medienpädagogik: Ein Denk- und Werkzeugkasten. 
+[christoph-mp.github.io/Digitale-Medienbildung](https://christoph-mp.github.io/Digitale-Medienbildung) 
 
 With contributions from Heidrun Allert, Jamila Becker, Lilli Borgeest, Helena Hintz and Isabelle Simon.
 
