@@ -19,7 +19,7 @@ biblio-style: "apa-good-german"
 csl: apa.csl
 link-citations: true
 github-repo: Christoph-MP/Digitale-Medienbildung
-description: "Dieses Dokument ist ein ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung. Der ›Denk- und Werkzeugkasten‹ richtet sich an Lehramtstudierende und Lehrer*innen, aber auch an Medienpädagog*innen und andere Personen, die sich in pädagogischen und außerpädagogischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren."
+description: "Dieses Dokument ist ein ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung. Der ›Denk- und Werkzeugkasten‹ richtet sich an Lehramtstudierende und Lehrer*innen, aber auch an Medienpädagog*innen und andere Personen, die sich in schulischen und außerschulischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren."
 ---
 
 # Vorwort {-}
@@ -27,7 +27,7 @@ description: "Dieses Dokument ist ein ›Denk- und Werkzeugkasten‹ zum Themenf
 knitr::include_graphics('Figures/Cover.png')
 ```
 
-Der vorliegende ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung richtet sich an Lehramtstudierende und Lehrer\*innen, aber auch an Medienpädagog\*innen und andere Personen, die sich in pädagogischen und außerpädagogischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren.
+Der vorliegende ›Denk- und Werkzeugkasten‹ zum Themenfeld der Digitalen Medienbildung richtet sich an Lehramtstudierende und Lehrer\*innen, aber auch an Medienpädagog\*innen und andere Personen, die sich in schulischen und außerschulischen Handlungsfeldern mit Fragen der Digitalisierung befassen und sich damit auseinandersetzen, in welcher Weise digitale Technologien unsere sozialen, gesellschaftlichen und kulturellen Praktiken transformieren.
 
 Als Denk- und Werkzeugkasten beinhaltet dieses Dokument verschiedene theoretische und methodische Ansatzpunkte zur eigenständigen wie auch gemeinsamen Erkundung digitaler Transformationsprozesse. Jedes der 14 Kapitel nähert sich dem Themenfeld der Digitalen Medienbildung aus einer spezifischen Perspektive. Nähere Informationen zum Aufbau und den didaktischen Leitgedanken finden sich in den Abschnitten [1.3][(K)eine Gebrauchsanweisung] sowie [1.4][Inhalte der Materialsammlung].
 
